@@ -29,5 +29,10 @@ Se priorizó que el sitio fuera navegable para todo tipo de usuarios:
 - **Atributos Alt:** Todas las imágenes incluyen descripciones alternativas detalladas para usuarios con discapacidad visual que utilizan lectores de pantalla.
 - **Etiquetado de Formularios:** Se asociaron correctamente los `<label>` con sus respectivos `<input>` mediante el atributo `for`, facilitando la interacción táctil y por teclado.
 
+## Screenshots
+![](./screenshots/horizontal.png)
+
+![](./screenshots/vertical.png)
+
 ## Conclusión
 La página resultante es una herramienta funcional que representa los valores de AARDEM. La combinación de HTML semántico, CSS responsivo y prácticas de accesibilidad garantiza una experiencia de usuario óptima en cualquier dispositivo.
