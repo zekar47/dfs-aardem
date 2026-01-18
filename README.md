@@ -1,6 +1,9 @@
 # **Reporte de Desarrollo: Sitio Web Empresarial AARDEM**
 
-*Fecha:* 2026-01-18
+## Enlaces
+https://github.com/zekar47/dfs-aardem
+
+https://dfsaardem.neocities.org/
 
 ## Introducción
 El presente documento detalla el proceso de diseño y desarrollo de la plataforma web para la academia de música **AARDEM**. El objetivo principal fue crear una interfaz profesional, responsiva y accesible que facilite la comunicación entre la academia y sus futuros estudiantes.
@@ -28,8 +31,3 @@ Se priorizó que el sitio fuera navegable para todo tipo de usuarios:
 
 ## Conclusión
 La página resultante es una herramienta funcional que representa los valores de AARDEM. La combinación de HTML semántico, CSS responsivo y prácticas de accesibilidad garantiza una experiencia de usuario óptima en cualquier dispositivo.
-
-## Enlaces
-https://github.com/zekar47/dfs-aardem
-
-https://dfsaardem.neocities.org/
