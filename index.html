@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link href="style.css" rel="stylesheet">
+		<title>AARDEM - Academia de Música</title>
+	</head>
+	<body>
+
+		<header>
+			<div class="container header-content">
+				<div class="logo-area">
+					<a href="#"><img src="./images/logo.png" alt="AARDEM Logo"></a>
+					<div class="logo-placeholder" style="display:none;">
+						<strong>AARDEM</strong>
+					</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#quienes-somos">Nosotros</a></li>
+						<li><a href="#sucursales">Sucursales</a></li>
+						<li><a href="#proyectos">Cursos</a></li>
+						<li><a href="#contacto">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="title">
+			<div class="container">
+				<h1>Desarrolla tu potencial artístico</h1>
+				<p>Maestros titulados y certificados por los métodos SUZUKI</p>
+			</div>
+		</section>
+
+		<!-- Quienes Somos -->
+		<section id="quienes-somos">
+			<div class="container">
+				<h2 class="text-center" style="margin-bottom: 40px;">Quiénes Somos</h2>
+				<div class="mv-grid">
+					<div class="card">
+						<h3 style="color: var(--secondary-color);">Misión</h3>
+						<p>Brindar por medio de la música las herramientas necesarias para el crecimiento artístico y personal de todas las personas que lleguen a AARDEM para desarrollar su mejor potencial.</p>
+					</div>
+					<div class="card">
+						<h3 style="color: var(--secondary-color);">Visión</h3>
+						<p>Ser reconocidos en México y toda Latinoamérica como la academia mexicana de música número uno del mercado, tanto de manera física como virtual.</p>
+					</div>
+				</div>
+
+				<p class="text-center" style="max-width: 800px; margin: 0 auto;">En AARDEM nos preocupamos por desarrollar artistas de la mano de grandes expertos. Desde lecciones privadas hasta carreras magistrales en nuestras salas de clase completamente equipadas.</p>
+			</div>
+		</section>
+
+		<!-- Sucursales -->
+		<section id="sucursales" class="container">
+			<h2 class="text-center">Nuestras Sucursales</h2>
+			<div class="sucursales-grid">
+				<!-- Sucursal Contry -->
+				<div class="sucursal-card">
+					<h3>Sucursal CONTRY</h3>
+					<p>Av. Alfonso Reyes no. 228, entre Revolución y Garza Sada, Monterrey, N.L.</p>
+					<p><strong>Horarios:</strong>
+					Lun-Vie: 2:30pm - 7:45pm | Sáb: 10am - 4pm</p>
+					<p>Tel/WhatsApp: 813 057 0757</p>
+					<a href="https://api.whatsapp.com/send?phone=5218130570757&text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20cursos%20" class="btn btn-whatsapp" target="_blank">Contactar Contry</a>
+				</div>
+
+				<!-- Sucursal Cumbres -->
+				<div class="sucursal-card">
+					<h3>Sucursal CUMBRES</h3>
+					<p>Av. Paseo de los Leones 2864, Plaza Buganvilia, Cumbres 4º. Sector, Monterrey, N.L.</p>
+					<p><strong>Horarios:</strong>
+					Lun-Vie: 2:30pm - 7:45pm | Sáb: 10am - 4pm</p>
+					<p>Tel/WhatsApp: 81 4010 8000</p>
+					<a href="https://api.whatsapp.com/send?phone=5218140108000&text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%8E%BC" class="btn btn-whatsapp" target="_blank">Contactar Cumbres</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Sección de Proyectos / Actividades -->
+		<section id="proyectos" class="container">
+			<h2 class="text-center" style="margin-bottom: 30px;">Nuestras Actividades Destacadas</h2>
+			<div class="proyectos-flex">
+				<article class="proyecto-item">
+					<div class="img-placeholder">
+						<img src="./images/clases_privadas.jpg" alt="Lecciones Privadas">
+					</div>
+					<h3>Lecciones Privadas</h3>
+					<p>Atención personalizada para desarrollar técnica y sensibilidad musical desde cero hasta niveles avanzados.</p>
+				</article>
+
+				<article class="proyecto-item">
+					<div class="img-placeholder">
+						<img src="./images/suzuki.png" alt="Método Suzuki">
+					</div>
+					<h3>Método SUZUKI</h3>
+					<p>Maestros certificados internacionalmente bajo la filosofía del aprendizaje de la lengua materna aplicado a la música.</p>
+				</article>
+
+				<article class="proyecto-item">
+					<div class="img-placeholder">
+						<img src="./images/class.png" alt="Talleres y Cursos">
+					</div>
+					<h3>Talleres Exclusivos</h3>
+					<p>Cursos grupales, clínicas y talleres de temporada para complementar la formación de nuestros artistas.</p>
+				</article>
+			</div>
+		</section>
+
+		<!-- Sección de Contacto -->
+		<section id="contacto">
+			<div class="container">
+				<h2 class="text-center">Inscríbete Hoy</h2>
+				<p class="text-center">Déjanos tus datos y nos comunicaremos contigo a la brevedad.</p>
+				<br>
+				<form id="contactForm">
+					<label for="nombre">Nombre Completo:</label>
+					<input type="text" id="nombre" name="nombre" placeholder="Tu nombre..." required>
+
+					<label for="email">Correo Electrónico:</label>
+					<input type="email" id="email" name="email" placeholder="tu@email.com" required>
+
+					<label for="mensaje">¿Qué instrumento te interesa?</label>
+					<textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos más..." required></textarea>
+
+					<button type="submit" class="btn btn-submit">Enviar Información</button>
+				</form>
+				<div id="formStatus" style="display:none; text-align:center; margin-top:20px; color:var(--secondary-color);">
+					¡Gracias! Tu mensaje ha sido enviado con éxito.
+				</div>
+			</div>
+		</section>
+
+		<!-- Pie de Página -->
+		<footer>
+			<div class="container">
+				<p><strong>AARDEM - Academia de Música</strong></p>
+				<p>Monterrey, Nuevo León, México | info@aardem.com</p>
+				<div class="social-links" style="margin: 20px 0;">
+					<a href="https://www.facebook.com/AcademiaAardem/" target="_blank">Facebook</a>
+					| <a href="https://www.instagram.com/academia.aardem/" target="_blank">Instagram</a>
+					| <a href="https://www.youtube.com/@academiaartisticademusicaa217" target="_blank">YouTube</a>
+				</div>
+				<p>&copy; 2024 AARDEM Academia de Música. Todos los derechos reservados.</p>
+			</div>
+		</footer>
+	</body>
+</html>
